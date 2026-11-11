@@ -1,0 +1,14 @@
+# Players whose game language is one of these already shape Persian/Arabic text
+# themselves (Java Edition), so chat sends them the original text.
+raw-languages:
+  - fa
+  - ar
+
+# Signs and books keep ONE text for everyone, so the text is shaped when saved.
+# This works for players whose game language is English (not Persian/Arabic).
+signs: true
+books: true
+
+# Characters per line when Persian text in a book is split into lines.
+# Lower it if lines wrap wrongly in the book; raise it if lines look too short.
+book-line-chars: 14
